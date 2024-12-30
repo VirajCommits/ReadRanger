@@ -15,7 +15,7 @@ CORS(app,
 def after_request(response):
     # Allow CORS for both origins
     response.headers.add('Access-Control-Allow-Origin', ', '.join([
-        "http://localhost:3000"
+        "https://read-ranger-6nax.vercel.app"
     ]))
     response.headers.add('Access-Control-Allow-Headers', 'Content-Type')
     response.headers.add('Access-Control-Allow-Methods', 'GET,POST,OPTIONS')
