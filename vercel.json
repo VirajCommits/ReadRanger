@@ -2,11 +2,15 @@
     "version": 2,
     "builds": [
       {
-        "src": "*.jsx",  
-        "use": "@vercel/node"
+        "src": "backend/books.py",  
+        "use": "@vercel/python"
       }
     ],
     "rewrites": [
+      {
+        "source": "/api/(.*)",
+        "destination": "backend/books.py"
+      },
       {
         "source": "/(.*)",
         "destination": "/"
