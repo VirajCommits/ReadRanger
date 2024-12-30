@@ -6,7 +6,7 @@ import random , json
 app = Flask(__name__)
 CORS(app, 
      resources={r"/*": {
-         "origins": ["http://localhost:3000"],  # Explicitly allow your Next.js origin
+         "origins": ["http://localhost:3000" , "https://read-ranger-hb7cuhjfn-virajcommits-projects.vercel.app"],  # Explicitly allow your Next.js origin
          "methods": ["GET", "POST", "OPTIONS"],
          "allow_headers": ["Content-Type"],
      }})
