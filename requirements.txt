@@ -6,5 +6,6 @@ numpy==1.26.3
 pandas==2.1.4
 sqlalchemy==2.0.25
 python-dotenv==1.0.0
-Flask==2.0.3  # or the version you are using
+Flask==2.2.2  # or the version you are using
+Werkzeug==2.2.2  # ensure this is compatible with your Flask version
 Flask-Cors==3.0.10  # if you're using Flask-CORS
