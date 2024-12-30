@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://127.0.0.1:5000/api';  // Make sure this matches your backend
+const API_BASE_URL = 'https://read-ranger-2a90b350a47f.herokuapp.com/api';  // Make sure this matches your backend
 
 export const api = {
   async getRecommendations(readingParams) {
