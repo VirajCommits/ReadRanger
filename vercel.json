@@ -1,21 +1,21 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "backend/books.py",  
-      "use": "@vercel/python"
-    }
-  ], 
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "backend/books.py"  
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/"
-    }
-  ]
-}
+    "version": 2,
+    "builds": [
+      {
+        "src": "backend/books.py",  
+        "use": "@vercel/python"
+      }
+    ], 
+    "routes": [
+      {
+        "src": "/api/(.*)",
+        "dest": "backend/books.py"  
+      }
+    ],
+    "rewrites": [
+      {
+        "source": "/(.*)",
+        "destination": "/"
+      }
+    ]
+  }
