@@ -2,18 +2,14 @@
     "version": 2,
     "builds": [
       {
-        "src": "backend/books.py",  
+        "src": "app.py",  
         "use": "@vercel/python"
       }
     ],
-    "rewrites": [
+    "routes": [
       {
-        "source": "/api/(.*)",
-        "destination": "backend/books.py"
-      },
-      {
-        "source": "/(.*)",
-        "destination": "/"
+        "src": "/(.*)",
+        "dest": "app.py"
       }
     ]
   }
