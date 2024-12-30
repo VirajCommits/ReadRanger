@@ -1,6 +1,5 @@
 {
   "name": "reading-tracker",
-  "proxy": "https://read-ranger-git-main-virajcommits-projects.vercel.app",
   "version": "0.1.0",
   "private": true,
   "scripts": {

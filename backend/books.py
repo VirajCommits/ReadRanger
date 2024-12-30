@@ -3,8 +3,6 @@ from flask_cors import CORS
 import requests
 import random , json
 
-# https://read-ranger.vercel.app/api/recommend-books-stream?minutesPerDay=60&readingSpeed=300&months=3
-
 app = Flask(__name__)
 CORS(app, 
      resources={r"/*": {
