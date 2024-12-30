@@ -78,7 +78,10 @@ export default function ReadingForm() {
       months: formData.months,
     }).toString();
 
-    const url = `https://read-ranger-hb7cuhjfn-virajcommits-projects.vercel.app/api/recommend-books-stream?${qs}`;
+    // const url = `http://127.0.0.1:5001/api/recommend-books-stream?${qs}`;
+    const url = `https://read-ranger-git-main-virajcommits-projects.vercel.app/api/recommend-books-stream?${qs}`;
+    
+    console.log(url)
     const es = new EventSource(url);
 
     es.onopen = () => {
