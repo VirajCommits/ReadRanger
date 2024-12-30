@@ -1,19 +1,8 @@
-Cython>=0.29.34  # Updated to the latest version
 Django==4.2.16
 djangorestframework==3.15.2
 djangorestframework-simplejwt==5.3.1
-Flask==3.0.3
-Flask-Cors==4.0.1
-Flask-SQLAlchemy==3.1.1
-fastapi==0.108.0
-uvicorn==0.25.0
 requests==2.32.3
 numpy==1.26.3
 pandas==2.1.4
-spacy==3.7.2
-beautifulsoup4==4.11.1
 sqlalchemy==2.0.25
-pytest==7.2.0  # Add if using for testing
-pytz==2024.2
 python-dotenv==1.0.0
-PyYAML==6.0.2
