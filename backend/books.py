@@ -6,7 +6,7 @@ import random , json
 app = Flask(__name__)
 CORS(app, 
      resources={r"/*": {
-         "origins": ["http://localhost:3000" , "https://read-ranger-hb7cuhjfn-virajcommits-projects.vercel.app"],  # Explicitly allow your Next.js origin
+         "origins": ["http://localhost:3000" , "https://read-ranger-git-main-virajcommits-projects.vercel.app"],  # Explicitly allow your Next.js origin
          "methods": ["GET", "POST", "OPTIONS"],
          "allow_headers": ["Content-Type"],
      }})
@@ -15,7 +15,7 @@ CORS(app,
 def after_request(response):
     # Allow CORS for both origins
     response.headers.add('Access-Control-Allow-Origin', ', '.join([
-        "https://read-ranger-hb7cuhjfn-virajcommits-projects.vercel.app"
+        "https://read-ranger-git-main-virajcommits-projects.vercel.app"
     ]))
     response.headers.add('Access-Control-Allow-Headers', 'Content-Type')
     response.headers.add('Access-Control-Allow-Methods', 'GET,POST,OPTIONS')
