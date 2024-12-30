@@ -80,8 +80,8 @@ export default function ReadingForm() {
 
     // api/recommend-books-stream?minutesPerDay=60&readingSpeed=300&months=3
 
-    const url = `http://127.0.0.1:5000/api/recommend-books-stream?${qs}`;
-    // const url = `https://read-ranger-6nax.vercel.app/api/recommend-books-stream?${qs}`;
+    // const url = `http://127.0.0.1:5000/api/recommend-books-stream?${qs}`;
+    const url = `https://read-ranger-6nax.vercel.app/api/recommend-books-stream?${qs}`;
     
     console.log(url)
     const es = new EventSource(url);
