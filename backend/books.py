@@ -15,7 +15,7 @@ CORS(app,
 def after_request(response):
     # Allow CORS for both origins
     response.headers.add('Access-Control-Allow-Origin', ', '.join([
-        "https://read-ranger-git-main-virajcommits-projects.vercel.app"
+        "http://localhost:3000/"
     ]))
     response.headers.add('Access-Control-Allow-Headers', 'Content-Type')
     response.headers.add('Access-Control-Allow-Methods', 'GET,POST,OPTIONS')
