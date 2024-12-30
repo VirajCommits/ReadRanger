@@ -158,7 +158,6 @@ langchain-core==0.1.7
 langcodes==3.3.0
 langsmith==0.0.77
 libclang==16.0.0
-lxml==4.9.2
 Markdown==3.4.3
 markdown2==2.5.1
 MarkupSafe==3.0.2
