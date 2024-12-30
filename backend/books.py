@@ -14,7 +14,7 @@ CORS(app,
 @app.after_request
 def after_request(response):
     # response.headers.add('Access-Control-Allow-Origin', 'http://localhost:3000')
-    response.headers.add('Access-Control-Allow-Origin', 'https://read-ranger-git-main-virajcommits-projects.vercel.app/api/recommend-books-stream')
+    response.headers.add('Access-Control-Allow-Origin', 'https://read-ranger-git-main-virajcommits-projects.vercel.app')
     response.headers.add('Access-Control-Allow-Headers', 'Content-Type')
     response.headers.add('Access-Control-Allow-Methods', 'GET,POST,OPTIONS')
     return response
