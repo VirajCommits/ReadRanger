@@ -2,15 +2,14 @@
     "version": 2,
     "builds": [
       {
-        "src": "package.json",
-        "use": "@vercel/next@latest"
+        "src": "backend/books.py",  
+        "use": "@vercel/python"
       }
     ],
-    "routes": [
+    "rewrites": [
       {
-        "src": "/(.*)",
-        "dest": "/"
+        "source": "/(.*)",
+        "destination": "/"
       }
     ]
   }
-  
