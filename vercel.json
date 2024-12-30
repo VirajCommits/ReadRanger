@@ -12,8 +12,10 @@
         "dest": "backend/books.py"  
       }
     ],
-    "rewrites":[{
-        "SOURCE":"/(.*)",
-        "DESTINATION":"/"
-    }]
+    "rewrites": [
+      {
+        "source": "/(.*)",
+        "destination": "/"
+      }
+    ]
   }
