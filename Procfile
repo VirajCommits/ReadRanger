@@ -1,1 +1,1 @@
-     web: gunicorn reading-tracker.wsgi
+   web: npm start
