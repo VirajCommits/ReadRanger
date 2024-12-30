@@ -5,11 +5,15 @@
         "src": "backend/books.py",  
         "use": "@vercel/python"
       }
-    ],
+    ], 
     "routes": [
       {
         "src": "/api/(.*)",
         "dest": "backend/books.py"  
       }
-    ]
+    ],
+    "rewrites":[{
+        "SOURCE":"/(.*)",
+        "DESTINATION":"/"
+    }]
   }
