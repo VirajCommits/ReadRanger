@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
       {
-        "src": "backend/books.py",  
-        "use": "@vercel/python"
+        "src": "src",  
+        "use": "*.jsx"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "backend/books.py"
+        "dest": "src"
       }
     ]
   }
