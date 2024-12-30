@@ -10,7 +10,6 @@ uvicorn==0.25.0
 requests==2.32.3
 numpy==1.26.3
 pandas==2.1.4
-torch==2.0.0  # Add if using PyTorch
 spacy==3.7.2
 beautifulsoup4==4.11.1
 sqlalchemy==2.0.25
