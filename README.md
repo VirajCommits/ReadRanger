@@ -14,11 +14,10 @@ A simple yet powerful web app to help you calculate your reading schedule based 
 - **Backend:** Node.js, Express.js
 - **Deployment:** Heroku
 
-## 🚀 LiveLink
+## 🌐 Live Demo
 
-    ```bash
-    https://read-ranger-2a90b350a47f.herokuapp.com
-    ```
+Check out the live version of the app here:  
+👉 [Reading Time Calculator](https://read-ranger-2a90b350a47f.herokuapp.com)
 
 ## 🚀 How to Run Locally
 
