@@ -242,7 +242,7 @@ export default function ReadingForm() {
             {/* Results Section */}
             <div className="w-full max-w-4xl mt-8 text-center">
               <h2 className="text-xl sm:text-2xl font-heading mb-6">
-                I had found {allBooks.length} book(s) total
+                Viraj I have found {allBooks.length} book(s) total
               </h2>
 
               {/* Book Grid */}
