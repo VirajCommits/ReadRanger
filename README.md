@@ -21,3 +21,9 @@ A simple yet powerful web app to help you calculate your reading schedule based 
    git clone https://github.com/your-username/reading-time-calculator.git
    cd reading-time-calculator
    ```
+
+## 🚀 LiveLink
+
+    ```bash
+    https://read-ranger-2a90b350a47f.herokuapp.com
+    ```
